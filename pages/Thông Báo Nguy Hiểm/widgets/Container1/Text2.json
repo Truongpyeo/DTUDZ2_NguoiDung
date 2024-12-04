@@ -1,0 +1,55 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#ef4444",
+  "borderColor": "#ef4444",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "12",
+  "bottomRow": 20,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "3wwd5smmvc",
+  "leftColumn": 9,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 10,
+  "mobileLeftColumn": 9,
+  "mobileRightColumn": 25,
+  "mobileTopRow": 6,
+  "needsErrorInfo": false,
+  "originalBottomRow": 20,
+  "originalTopRow": 14,
+  "overflow": "NONE",
+  "parentColumnSpace": 6.42431640625,
+  "parentId": "l1je4gcya3",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "shouldTruncate": false,
+  "text": "Siêu Bão Hải Yến (Haiyan)",
+  "textAlign": "LEFT",
+  "textColor": "#ffffff",
+  "topRow": 14,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "vmxerlkxtv",
+  "widgetName": "Text2"
+}

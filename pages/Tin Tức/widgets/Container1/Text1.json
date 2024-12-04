@@ -1,0 +1,50 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 15,
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "Inter",
+  "fontSize": "1.875rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "dt2zepuajq",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 22,
+  "mobileRightColumn": 38,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "originalBottomRow": 15,
+  "originalTopRow": 10,
+  "overflow": "NONE",
+  "parentColumnSpace": 6.53125,
+  "parentId": "y64evmbd1r",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 21,
+  "shouldScrollContents": true,
+  "shouldTruncate": false,
+  "text": " Tin Tức",
+  "textAlign": "LEFT",
+  "textColor": "#22c55e",
+  "topRow": 10,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "o1f5r5a4es",
+  "widgetName": "Text1"
+}
