@@ -23,7 +23,7 @@
   "isVisible": true,
   "key": "d80868s2dr",
   "leftColumn": 6,
-  "onClick": "",
+  "onClick": "{{obj_rigister.actionDangKy();}}",
   "originalBottomRow": 57,
   "originalTopRow": 51,
   "parentColumnSpace": 18.1875,

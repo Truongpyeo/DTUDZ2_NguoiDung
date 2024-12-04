@@ -8,11 +8,7 @@
   "disabledWhenInvalid": false,
   "displayName": "Button",
   "dynamicBindingPathList": [],
-  "dynamicPropertyPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -27,7 +23,7 @@
   "isVisible": true,
   "key": "d80868s2dr",
   "leftColumn": 7,
-  "onClick": "true",
+  "onClick": "{{finUser.run().then(() => {\n  objLogin.actionLogin();\n});}}",
   "originalBottomRow": 50,
   "originalTopRow": 44,
   "parentColumnSpace": 18.1875,

@@ -1,3 +1,0 @@
-INSERT INTO public."user_auth" ("first_name", "last_name", "email", "password_hash", "role")
-VALUES ('{{inp_dangKyHoVaTen.text}}', '{{inp_dangKyNgaySinh.text}}', '{{inp_dangKyEmail.text}}', {{this.params.passwordHash}}, 'Admin')
-RETURNING *;

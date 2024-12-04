@@ -46,7 +46,7 @@
       "key": "boxShadow"
     }
   ],
-  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "hideCard": false,
   "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
@@ -59,8 +59,6 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
-  "originalBottomRow": 73,
-  "originalTopRow": 0,
   "parentColumnSpace": 23.8125,
   "parentId": "0",
   "parentRowSpace": 10,

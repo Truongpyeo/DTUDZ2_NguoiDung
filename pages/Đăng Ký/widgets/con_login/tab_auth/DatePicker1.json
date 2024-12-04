@@ -5,7 +5,7 @@
   "bottomRow": 24,
   "boxShadow": "none",
   "closeOnSelection": true,
-  "dateFormat": "DD/MM/YY",
+  "dateFormat": "YYYY-MM-DD",
   "datePickerType": "DATE_PICKER",
   "defaultDate": "2024-12-01T02:19:44.363Z",
   "dynamicBindingPathList": [
