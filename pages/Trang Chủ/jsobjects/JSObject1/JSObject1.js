@@ -19,9 +19,22 @@ export default {
 		return {
 			'lat' : location.coords.latitude,
 			'lng' : location.coords.longitude,
-			"title": "Do Van E",
-			"location": "345 Đường MNO, Quận 5, TP.HCM"
+			"title": "Vị trí của bạn",
+			"location": ""
 		}
+	},
+	// async getVungNguyHiemGanBan () {
+	// var dataNguyHiem = await getCanhBao.run().data;
+	// return {
+	// 'lat' : location.coords.latitude,
+	// 'lng' : location.coords.longitude,
+	// "title": "Vị trí của bạn",
+	// "location": ""
+	// }
+	// }
+	async getVungNguyHiemGanBan () {
+		var dataNguyHiem = await getCanhBao.run();
+		return dataNguyHiem.data;
 	}
 
 
