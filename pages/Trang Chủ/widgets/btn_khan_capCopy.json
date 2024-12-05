@@ -11,6 +11,11 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -30,7 +35,7 @@
   "mobileRightColumn": 12,
   "mobileTopRow": 31,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Yêu cầu cứu trợ', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{JSObject1.actionYeuCauTroCap()}}",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,

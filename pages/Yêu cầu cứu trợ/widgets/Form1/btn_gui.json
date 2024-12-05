@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 40,
+  "bottomRow": 25,
   "boxShadow": "none",
   "buttonColor": "#15803d",
   "buttonVariant": "PRIMARY",
@@ -11,7 +11,16 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconAlign": "left",
   "iconName": "arrow-top-right",
   "isDefaultClickDisabled": true,
@@ -26,8 +35,9 @@
   "mobileRightColumn": 62,
   "mobileTopRow": 33,
   "needsErrorInfo": false,
-  "originalBottomRow": 40,
-  "originalTopRow": 36,
+  "onClick": "{{appsmith.store.id_user === undefined? showAlert(\"Vui lòng đăng nhập\",\"error\") :jsYeuCau.createNhanCuuTro();}}",
+  "originalBottomRow": 25,
+  "originalTopRow": 21,
   "parentId": "o8maujgfms",
   "placement": "CENTER",
   "recaptchaType": "V3",
@@ -36,7 +46,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 60,
   "text": "GỬI YÊU CẦU",
-  "topRow": 36,
+  "topRow": 21,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "5q6ajmg8wc",
