@@ -39,7 +39,7 @@
     },
     {
       "id": "Đăng Nhập",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Tin Tức",
@@ -63,7 +63,7 @@
     },
     {
       "id": "Trang Chủ",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Yêu cầu cứu trợ",

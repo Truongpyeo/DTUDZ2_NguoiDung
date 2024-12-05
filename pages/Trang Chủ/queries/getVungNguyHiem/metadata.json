@@ -15,6 +15,9 @@
             "data": "10"
           }
         },
+        "body": {
+          "data": "{\n  \"find\": \"vung_nguy_hiem\",\n  \"filter\": {\n\t\"is_active\": true\n},\n  \"limit\": 10,\n  \"batchSize\": 10\n}\n"
+        },
         "collection": {
           "data": "vung_nguy_hiem"
         },
