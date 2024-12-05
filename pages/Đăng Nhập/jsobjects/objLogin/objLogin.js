@@ -11,7 +11,12 @@ export default {
 		// await storeValue("id_admin", 11111);
 		return token;
 	},
-
+	checklogin:  async () => {
+		const check = appsmith.store.id_user;
+		if(check){
+			navigateTo("Trang Chủ");
+		}
+	},
 	comparePassword: async (password, hash) => {
 		return dcodeIO.bcrypt.compareSync(password, hash)
 	},

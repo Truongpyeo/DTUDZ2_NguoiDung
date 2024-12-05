@@ -1,10 +1,15 @@
 {
   "animateLoading": true,
-  "borderRadius": "1.5rem",
+  "borderRadius": "6rem",
   "bottomRow": 10,
   "boxShadow": "none",
   "defaultImage": "https://th.bing.com/th/id/OIP.t_lAMyyUCiTGuN8CrwYDngHaHa?rs=1&pid=ImgDetMain",
   "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "enableDownload": false,
   "enableRotation": false,
@@ -21,7 +26,7 @@
   "mobileRightColumn": 28,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "objectFit": "contain",
+  "objectFit": "cover",
   "parentColumnSpace": 1.728515625,
   "parentId": "mo7kg4kvpv",
   "parentRowSpace": 10,

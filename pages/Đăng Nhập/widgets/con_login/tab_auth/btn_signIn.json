@@ -3,7 +3,7 @@
   "borderRadius": "1.5rem",
   "bottomRow": 50,
   "boxShadow": "none",
-  "buttonColor": "#22c55e",
+  "buttonColor": "#2b9c54",
   "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "displayName": "Button",

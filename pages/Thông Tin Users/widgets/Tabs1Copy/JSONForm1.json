@@ -93,13 +93,7 @@
       "key": "boxShadow"
     },
     {
-      "key": "submitButtonStyles.buttonColor"
-    },
-    {
       "key": "submitButtonStyles.borderRadius"
-    },
-    {
-      "key": "resetButtonStyles.buttonColor"
     },
     {
       "key": "resetButtonStyles.borderRadius"
@@ -256,7 +250,7 @@
   "resetButtonStyles": {
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "boxShadow": "none",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#2b9c54",
     "buttonVariant": "SECONDARY"
   },
   "responsiveBehavior": "fill",
@@ -545,7 +539,7 @@
   "submitButtonStyles": {
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "boxShadow": "none",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "buttonColor": "#2b9c54",
     "buttonVariant": "PRIMARY"
   },
   "title": "",
