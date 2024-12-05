@@ -10,9 +10,9 @@
     "navigationSetting": {
       "colorStyle": "light",
       "logoAssetId": "",
-      "logoConfiguration": "logoAndApplicationTitle",
-      "navStyle": "inline",
-      "orientation": "top",
+      "logoConfiguration": "logoOnly",
+      "navStyle": "sidebar",
+      "orientation": "side",
       "position": "static",
       "showNavbar": true,
       "showSignIn": true
@@ -76,9 +76,9 @@
     "navigationSetting": {
       "colorStyle": "light",
       "logoAssetId": "",
-      "logoConfiguration": "logoAndApplicationTitle",
-      "navStyle": "inline",
-      "orientation": "top",
+      "logoConfiguration": "logoOnly",
+      "navStyle": "sidebar",
+      "orientation": "side",
       "position": "static",
       "showNavbar": true,
       "showSignIn": true

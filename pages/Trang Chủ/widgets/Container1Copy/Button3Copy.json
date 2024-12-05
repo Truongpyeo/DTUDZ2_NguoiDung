@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 13,
+  "bottomRow": 12,
   "boxShadow": "none",
   "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
   "buttonVariant": "TERTIARY",
@@ -39,7 +39,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 29,
   "text": "Tổng số lượt truy cập",
-  "topRow": 9,
+  "topRow": 8,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "dwx20p6dt1",

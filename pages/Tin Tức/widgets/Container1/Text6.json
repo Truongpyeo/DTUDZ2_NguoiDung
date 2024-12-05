@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 66,
+  "bottomRow": 44,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 47,
   "needsErrorInfo": false,
-  "originalBottomRow": 66,
-  "originalTopRow": 62,
+  "originalBottomRow": 44,
+  "originalTopRow": 40,
   "overflow": "NONE",
   "parentColumnSpace": 6.53125,
   "parentId": "y64evmbd1r",
@@ -40,10 +40,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "Những Tin Tức Nổi Bật",
-  "textAlign": "LEFT",
+  "text": "Tin Tức hôm nay",
+  "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 62,
+  "topRow": 40,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

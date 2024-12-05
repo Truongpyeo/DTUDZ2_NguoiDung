@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 34,
+  "bottomRow": 21,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -14,7 +14,7 @@
   "dynamicTriggerPathList": [],
   "fontFamily": "Nunito Sans",
   "fontSize": "1rem",
-  "fontStyle": "",
+  "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
   "key": "md42uyc05r",
@@ -27,7 +27,7 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 12,
   "needsErrorInfo": false,
-  "originalBottomRow": 34,
+  "originalBottomRow": 22,
   "originalTopRow": 17,
   "overflow": "NONE",
   "parentColumnSpace": 6.21875,
@@ -35,11 +35,11 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
+  "rightColumn": 64,
   "shouldTruncate": false,
-  "text": "\t\tLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+  "text": "Dự tính vào đất liền ngày 15/12",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "#e15615",
   "topRow": 17,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",

@@ -5,6 +5,9 @@
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
+      "key": "text"
+    },
+    {
       "key": "truncateButtonColor"
     },
     {
@@ -12,6 +15,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -21,7 +27,7 @@
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
-  "key": "dt2zepuajq",
+  "key": "fg7d3qmuiq",
   "leftColumn": 16,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
@@ -31,13 +37,13 @@
   "mobileRightColumn": 28,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "overflow": "SCROLL",
-  "parentId": "togzsexls6",
+  "overflow": "NONE",
+  "parentId": "vmhvlbr6dh",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 28,
   "shouldTruncate": false,
-  "text": "Tiêu đề",
+  "text": "{{currentItem.name}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "textStyle": "HEADING",
@@ -45,6 +51,6 @@
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "nzi7vq4tfx",
-  "widgetName": "Text2"
+  "widgetId": "5097r8yqhm",
+  "widgetName": "Text7"
 }

@@ -34,6 +34,8 @@
   "mobileTopRow": 10,
   "needsErrorInfo": false,
   "onClick": "{{JSObject1.setDefaultTab('canhbaotoanquoc');}}",
+  "originalBottomRow": 11,
+  "originalTopRow": 7,
   "parentColumnSpace": 6.21875,
   "parentId": "69xkdsv2mx",
   "parentRowSpace": 10,

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 24,
+  "bottomRow": 16,
   "boxShadow": "none",
   "buttonVariant": "SECONDARY",
   "childStylesheet": {
@@ -132,7 +132,7 @@
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 64,
-  "topRow": 17,
+  "topRow": 7,
   "type": "BUTTON_GROUP_WIDGET",
   "version": 1,
   "widgetId": "j1z8zec76i",
