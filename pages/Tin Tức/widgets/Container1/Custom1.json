@@ -3,7 +3,7 @@
   "borderColor": "#f4f4f5",
   "borderRadius": "0px",
   "borderWidth": "",
-  "bottomRow": 16,
+  "bottomRow": 11,
   "boxShadow": "none",
   "defaultModel": "{\n  \"tips\": [\n    \"Pass data to this widget in the default model field\",\n    \"Access data in the javascript file using the appsmith.model variable\",\n    \"Create events in the widget and trigger them in the javascript file using appsmith.triggerEvent('eventName')\",\n    \"Access data in CSS as var(--appsmith-model-{property-name})\"\n  ]\n}",
   "dynamicBindingPathList": [
@@ -48,7 +48,7 @@
     "js": ""
   },
   "theme": "{{appsmith.theme}}",
-  "topRow": 10,
+  "topRow": 5,
   "type": "CUSTOM_WIDGET",
   "uncompiledSrcDoc": {
     "css": "",

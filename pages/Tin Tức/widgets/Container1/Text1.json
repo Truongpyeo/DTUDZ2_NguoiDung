@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 10,
+  "bottomRow": 5,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -27,8 +27,8 @@
   "mobileRightColumn": 38,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 10,
-  "originalTopRow": 5,
+  "originalBottomRow": 5,
+  "originalTopRow": 0,
   "overflow": "NONE",
   "parentColumnSpace": 6.53125,
   "parentId": "y64evmbd1r",
@@ -38,10 +38,10 @@
   "rightColumn": 64,
   "shouldScrollContents": true,
   "shouldTruncate": false,
-  "text": " Tin Tức",
+  "text": "TIN TỨC",
   "textAlign": "CENTER",
   "textColor": "#22c55e",
-  "topRow": 5,
+  "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
