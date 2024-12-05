@@ -1,23 +1,23 @@
 {
-  "gitSyncId": "674ac487458c5653a9969d30_e7be38f4-7aae-436e-8fd1-644b6d152c2b",
+  "gitSyncId": "6750f449f0b1ed2b4a0eb65d_b3496610-f5ea-483a-bb07-2f143045177a",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 700,
+          "bottomRow": 530,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "minHeight": 620,
+          "minHeight": 590,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
           "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 60,
+          "snapRows": 57,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 90,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Thông Báo Nguy Hiểm",
-    "slug": "thong-bao-nguy-hiem"
+    "name": "Yêu cầu cứu trợ",
+    "slug": "yeu-cau-cuu-tro"
   }
 }

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 81,
+  "bottomRow": 68,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -27,8 +27,8 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 55,
   "needsErrorInfo": false,
-  "originalBottomRow": 81,
-  "originalTopRow": 77,
+  "originalBottomRow": 80,
+  "originalTopRow": 76,
   "overflow": "NONE",
   "parentColumnSpace": 6.42431640625,
   "parentId": "l1je4gcya3",
@@ -40,7 +40,7 @@
   "text": "Hãy luôn cập thông tin và các địa điểm an toàn.",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 77,
+  "topRow": 64,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

@@ -64,6 +64,10 @@
     {
       "id": "Trang Chủ",
       "isDefault": false
+    },
+    {
+      "id": "Yêu cầu cứu trợ",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

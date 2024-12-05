@@ -1,12 +1,24 @@
 {
   "allowZoom": true,
   "animateLoading": true,
-  "borderRadius": "0px",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 55,
-  "boxShadow": "none",
-  "defaultMarkers": "[\n  {\n    \"lat\": 21.0285,\n    \"long\": 105.8542,\n    \"title\": \"Hà Nội\"\n  }\n]\n",
-  "dynamicBindingPathList": [],
-  "dynamicTriggerPathList": [],
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "defaultMarkers": [
+    {
+      "lat": 25.122,
+      "long": 50.132,
+      "title": "Location1"
+    }
+  ],
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
   "enableMapTypeControl": false,
   "enablePickLocation": true,
   "enableSearch": true,
@@ -15,30 +27,28 @@
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "s513kfmef9",
+  "key": "y4f8z73e3b",
   "leftColumn": 0,
   "mapCenter": {
     "lat": 25.122,
     "long": 50.132
   },
   "minWidth": 450,
-  "mobileBottomRow": 50,
+  "mobileBottomRow": 40,
   "mobileLeftColumn": 0,
   "mobileRightColumn": 24,
-  "mobileTopRow": 10,
+  "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 64,
-  "originalTopRow": 19,
-  "parentColumnSpace": 6.42431640625,
-  "parentId": "l1je4gcya3",
+  "parentColumnSpace": 5.90625,
+  "parentId": "2xr81osoq9",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 64,
-  "topRow": 10,
+  "topRow": 0,
   "type": "MAP_WIDGET",
   "version": 1,
-  "widgetId": "fmpdb3fmwe",
-  "widgetName": "Map1",
+  "widgetId": "qtre6zmt7y",
+  "widgetName": "Map2",
   "zoomLevel": 50
 }
