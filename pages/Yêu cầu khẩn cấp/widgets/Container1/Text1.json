@@ -1,13 +1,13 @@
 {
   "animateLoading": true,
+  "backgroundColor": "#ef4444",
+  "borderColor": "#ef4444",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 10,
+  "borderWidth": "1",
+  "bottomRow": 4,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
-    },
-    {
-      "key": "fontFamily"
     },
     {
       "key": "borderRadius"
@@ -15,8 +15,8 @@
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
-  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1.875rem",
+  "fontFamily": "Inter",
+  "fontSize": "1.25rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
@@ -30,23 +30,23 @@
   "mobileRightColumn": 33,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "originalBottomRow": 10,
-  "originalTopRow": 5,
+  "originalBottomRow": 4,
+  "originalTopRow": 0,
   "overflow": "NONE",
   "parentColumnSpace": 6.53125,
-  "parentId": "zvtpleywhq",
+  "parentId": "v2vdjpt2o7",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "shouldTruncate": false,
-  "text": "Yêu cầu cứu trợ",
+  "text": "THÔNG TIN YÊU CẦU KHẨN CẤP",
   "textAlign": "CENTER",
-  "textColor": "#ef4444",
-  "topRow": 5,
+  "textColor": "#ffffff",
+  "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "5y8cf8ckas",
+  "widgetId": "kg4dzy0aiy",
   "widgetName": "Text1"
 }

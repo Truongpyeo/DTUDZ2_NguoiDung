@@ -3,5 +3,7 @@ export default {
 
 	setDefaultTab: (newTab) => {
 		this.defaultTab = newTab;
+		FilePicker1.files
 	},
+	
 }

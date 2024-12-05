@@ -68,6 +68,10 @@
     {
       "id": "Yêu cầu cứu trợ",
       "isDefault": false
+    },
+    {
+      "id": "Yêu cầu khẩn cấp",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
