@@ -22,5 +22,12 @@ export default {
 		showAlert("Người dùng đã được tạo thành công!", "success");
 		navigateTo("Đăng Nhập");
 	},
+	checklogin:  async () => {
+		const check = appsmith.store.id_user;
+		if(check){
+			navigateTo("Trang Chủ");
+			showAlert("Bạn đã đăng nhập","error");
+		}
+	},
 
 }

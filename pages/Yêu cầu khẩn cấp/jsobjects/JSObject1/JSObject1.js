@@ -10,5 +10,6 @@ export default {
 		else{
 			showAlert("Vui lòng nhập đầy đủ thông tin!!", "error");
 		}
-	}
+	},
+	
 };
