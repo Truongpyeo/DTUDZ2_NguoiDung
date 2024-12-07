@@ -23,6 +23,27 @@ export default {
 
 	actionLogin: async () => {
 		try{
+			const email = input_email.text;
+			const password = input_pass.text;
+
+			// Kiểm tra các trường bắt buộc
+			if (!email || !password) {
+				showAlert("Vui lòng điền đầy đủ thông tin!", "error");
+				return;
+			}
+
+			// Kiểm tra định dạng email
+			const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+			if (!emailPattern.test(email)) {
+				showAlert("Địa chỉ email không hợp lệ!", "error");
+				return;
+			}
+
+			// Kiểm tra độ dài mật khẩu
+			if (password.length < 6) {
+				showAlert("Mật khẩu phải có ít nhất 6 ký tự!", "error");
+				return;
+			}
 			const [user] = await finUser.run();
 			var check = await this.comparePassword(input_pass.text, user.password);
 			storeValue("id_user", user.id);
