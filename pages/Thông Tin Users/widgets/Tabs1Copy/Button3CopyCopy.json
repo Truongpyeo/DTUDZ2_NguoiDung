@@ -6,14 +6,18 @@
   "buttonColor": "#231f20",
   "buttonVariant": "SECONDARY",
   "disabledWhenInvalid": false,
-  "dynamicBindingPathList": [],
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
   "dynamicTriggerPathList": [],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "st4dx1oxef",
-  "leftColumn": 30,
+  "leftColumn": 0,
   "minWidth": 120,
   "mobileBottomRow": 12,
   "mobileLeftColumn": 28,
@@ -28,11 +32,11 @@
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 63,
-  "text": "Lịch sử yêu cầu",
+  "rightColumn": 30,
+  "text": "Tổng số yêu cầu: {{countLichSu.data.n}}",
   "topRow": 0,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "ejxl67ldy1",
-  "widgetName": "Button3Copy"
+  "widgetId": "xftugiejii",
+  "widgetName": "Button3CopyCopy"
 }
