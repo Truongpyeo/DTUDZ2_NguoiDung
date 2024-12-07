@@ -3,7 +3,7 @@ export default {
 		const location = this.getLocation();
 		const uuid = UUID.genV4();
 		const createdAt = new Date();
-		if(txt_noiDung.text.length>0 && txt_diaChi.text.length){
+		if(txt_noiDung.text.length>0 ){
 			await insertTroCap.run({
 				location: appsmith.store.address || location,
 				id:uuid.hexNoDelim,
@@ -11,7 +11,8 @@ export default {
 			});
 			// await getNhanLucByNguonLuc.run();
 			showAlert("Yêu cầu của bạn đã đã gửi thành công và đang chờ xử lý!", "success");
-			// closeModal(Modal1.name);
+			navigateTo("Trang Chủ");
+
 		}
 		else{
 			showAlert("Vui lòng nhập đầy đủ thông tin!!", "error");
