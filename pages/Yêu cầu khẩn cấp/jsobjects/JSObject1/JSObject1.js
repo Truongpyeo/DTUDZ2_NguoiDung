@@ -1,5 +1,14 @@
 export default {
+	async getLocation () {
+		var location = await appsmith.geolocation.getCurrentPosition()
+		appsmith.store
+		return {
+			'lat' : location.coords.latitude,
+			'lng' : location.coords.longitude,
+		}
+	},
 	createNhanCuuTro:async ()=>{
+		const location = this.getLocation();
 		const uuid = UUID.genV4();
 		const createdAt = new Date();
 		const hoTen = txt_hoTen.text;
@@ -11,6 +20,7 @@ export default {
 				return ;
 			}
 			await insertKhanCap.run({
+				location: appsmith.store.address || location,
 				id:uuid.hexNoDelim,
 				created_at: createdAt.toISOString(),
 			});
