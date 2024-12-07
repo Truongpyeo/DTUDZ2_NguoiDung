@@ -15,6 +15,7 @@ export default {
 		const check = appsmith.store.id_user;
 		if(check){
 			navigateTo("Trang Chủ");
+			showAlert("Bạn đã đăng nhập","error");
 		}
 	},
 	comparePassword: async (password, hash) => {

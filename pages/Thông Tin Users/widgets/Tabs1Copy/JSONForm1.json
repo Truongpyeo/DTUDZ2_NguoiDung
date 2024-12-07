@@ -240,7 +240,7 @@
   "mobileTopRow": 73,
   "needsErrorInfo": false,
   "onSubmit": "{{upDateUser.run().then(() => {\n  getUser.run();\n  showAlert('Chỉnh sửa trang các nhân thành công', 'success');\n});}}",
-  "originalBottomRow": 68,
+  "originalBottomRow": 60,
   "originalTopRow": 0,
   "parentColumnSpace": 6.53125,
   "parentId": "ug1xhmdfme",
