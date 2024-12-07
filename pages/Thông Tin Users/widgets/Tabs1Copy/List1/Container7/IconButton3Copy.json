@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 4,
+  "bottomRow": 5,
   "boxShadow": "none",
   "buttonColor": "#231f20",
   "buttonVariant": "TERTIARY",
@@ -10,13 +10,14 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "iconName": "th-list",
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
   "key": "f2nv1b7bi9",
-  "leftColumn": 2,
+  "leftColumn": 0,
   "minWidth": 50,
   "mobileBottomRow": 4,
   "mobileLeftColumn": 0,
@@ -24,14 +25,14 @@
   "mobileTopRow": 0,
   "needsErrorInfo": false,
   "parentColumnSpace": 5.31689453125,
-  "parentId": "irtfw91u68",
+  "parentId": "l12eyj90q4",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "hug",
-  "rightColumn": 5,
-  "topRow": 0,
+  "rightColumn": 3,
+  "topRow": 1,
   "type": "ICON_BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "58zcb8nkln",
+  "widgetId": "irpkg4ftzu",
   "widgetName": "IconButton3Copy"
 }

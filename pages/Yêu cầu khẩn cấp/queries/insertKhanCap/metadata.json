@@ -61,12 +61,12 @@
         },
         "insert": {
           "documents": {
-            "data": "{\n\t\"id\":\"{{this.params.id}}\",\n\t\"noi_dung\": \"{{txt_noiDung.text}}\",\n\t\"toa_do_x\": \"1\",\n\t\"toa_do_y\": \"1\",\n\t\"is_sos\": true,\n\t\"is_tro_cap\": false,\n\t\"id_nguoi_dung\":\"SOS\",\n\t\"tinh_trang\": false,\n}"
+            "data": "{\n\t\"id\":\"{{this.params.id}}\",\n\t\"noi_dung\": \"{{txt_noiDung.text}}\",\n\t\"toa_do_x\": \"1\",\n\t\"toa_do_y\": \"1\",\n\t\"is_sos\": true,\n\t\"is_tro_cap\": false,\n\t\"id_nguoi_dung\":\"SOS\",\n\t\"tinh_trang\": false,\n\t\"created_at\": \"{{this.params.created_at}}\"\n}"
           }
         },
         "misc": {
           "formToNativeQuery": {
-            "data": "{\n  \"insert\": \"thong_tin_cuu_nans\",\n  \"documents\": {\n\t\"id\":\"{{this.params.id}}\",\n\t\"noi_dung\": \"{{txt_noiDung.text}}\",\n\t\"toa_do_x\": \"1\",\n\t\"toa_do_y\": \"1\",\n\t\"is_sos\": true,\n\t\"is_tro_cap\": false,\n\t\"id_nguoi_dung\":\"SOS\",\n\t\"tinh_trang\": false,\n}\n}\n",
+            "data": "{\n  \"insert\": \"thong_tin_cuu_nans\",\n  \"documents\": {\n\t\"id\":\"{{this.params.id}}\",\n\t\"noi_dung\": \"{{txt_noiDung.text}}\",\n\t\"toa_do_x\": \"1\",\n\t\"toa_do_y\": \"1\",\n\t\"is_sos\": true,\n\t\"is_tro_cap\": false,\n\t\"id_nguoi_dung\":\"SOS\",\n\t\"tinh_trang\": false,\n\t\"created_at\": \"{{this.params.created_at}}\"\n}\n}\n",
             "status": "SUCCESS"
           }
         },

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 4,
+  "bottomRow": 5,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -13,15 +13,15 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1rem",
+  "fontSize": "0.875rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
   "key": "scpfl50qy3",
-  "leftColumn": 6,
+  "leftColumn": 44,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -34,19 +34,19 @@
   "originalTopRow": 0,
   "overflow": "NONE",
   "parentColumnSpace": 5.133514404296875,
-  "parentId": "irtfw91u68",
+  "parentId": "l12eyj90q4",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 36,
+  "rightColumn": 62,
   "shouldTruncate": false,
-  "text": "18-12-2024",
-  "textAlign": "LEFT",
+  "text": "20:00\n",
+  "textAlign": "RIGHT",
   "textColor": "#71717a",
-  "topRow": 0,
+  "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "5hjtkmv52v",
-  "widgetName": "Text3CopyCopy"
+  "widgetId": "rd2lidi5gv",
+  "widgetName": "Text3CopyCopyCopy"
 }

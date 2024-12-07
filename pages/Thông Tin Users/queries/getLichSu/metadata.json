@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "6750f449f0b1ed2b4a0eb65d_c0a12694-6a72-4f69-a0dd-ed7b80bbbb2f",
-  "id": "Yêu cầu cứu trợ_insertTroCap",
+  "gitSyncId": "6750f449f0b1ed2b4a0eb65d_c218cc28-d7cf-48b9-85ab-57516bdc51db",
+  "id": "Thông Tin Users_getLichSu",
   "pluginId": "mongo-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -19,7 +19,7 @@
           "data": "thong_tin_cuu_nans"
         },
         "command": {
-          "data": "INSERT"
+          "data": "FIND"
         },
         "count": {
           "query": {
@@ -50,7 +50,7 @@
             "data": ""
           },
           "query": {
-            "data": ""
+            "data": "{\n\tid_nguoi_dung : {{appsmith.store.id_user}}\n}"
           },
           "skip": {
             "data": ""
@@ -61,12 +61,12 @@
         },
         "insert": {
           "documents": {
-            "data": "{\n\t\"id\":\"{{this.params.id}}\",\n\t\"noi_dung\": \"{{txt_noiDung.text}}\",\n\t\"toa_do_x\": \"1\",\n\t\"toa_do_y\": \"1\",\n\t\"is_sos\": false,\n\t\"is_tro_cap\": true,\n\t\"id_nguoi_dung\":\"{{appsmith.store.id_user}}\",\n\t\"tinh_trang\": false,\n\t\"created_at\": \"{{this.params.created_at}}\"\n}"
+            "data": ""
           }
         },
         "misc": {
           "formToNativeQuery": {
-            "data": "{\n  \"insert\": \"thong_tin_cuu_nans\",\n  \"documents\": {\n\t\"id\":\"{{this.params.id}}\",\n\t\"noi_dung\": \"{{txt_noiDung.text}}\",\n\t\"toa_do_x\": \"1\",\n\t\"toa_do_y\": \"1\",\n\t\"is_sos\": false,\n\t\"is_tro_cap\": true,\n\t\"id_nguoi_dung\":\"{{appsmith.store.id_user}}\",\n\t\"tinh_trang\": false,\n\t\"created_at\": \"{{this.params.created_at}}\"\n}\n}\n",
+            "data": "{\n  \"find\": \"thong_tin_cuu_nans\",\n  \"filter\": {\n\tid_nguoi_dung : {{appsmith.store.id_user}}\n},\n  \"limit\": 10,\n  \"batchSize\": 10\n}\n",
             "status": "SUCCESS"
           }
         },
@@ -97,12 +97,12 @@
     },
     "dynamicBindingPathList": [
       {
-        "key": "formData.insert.documents.data"
+        "key": "formData.find.query.data"
       }
     ],
-    "executeOnLoad": false,
-    "name": "insertTroCap",
-    "pageId": "Yêu cầu cứu trợ",
+    "executeOnLoad": true,
+    "name": "getLichSu",
+    "pageId": "Thông Tin Users",
     "userSetOnLoad": false
   }
 }
