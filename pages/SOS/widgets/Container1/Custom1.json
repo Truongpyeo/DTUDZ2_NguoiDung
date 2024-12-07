@@ -13,14 +13,8 @@
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [],
-  "dynamicTriggerPathList": [
-    {
-      "key": "onClick"
-    }
-  ],
-  "events": [
-    "onClick"
-  ],
+  "dynamicTriggerPathList": [],
+  "events": [],
   "isCanvas": false,
   "isLoading": false,
   "isSearchWildcard": true,
@@ -34,9 +28,8 @@
   "mobileRightColumn": 32,
   "mobileTopRow": 26,
   "needsErrorInfo": false,
-  "onClick": "{{showAlert('TC', 'success').then(() => {\n  showAlert('TC', '');\n});}}",
-  "originalBottomRow": 63,
-  "originalTopRow": 11,
+  "originalBottomRow": 55,
+  "originalTopRow": 6,
   "parentColumnSpace": 6.53125,
   "parentId": "4iwvzcaycz",
   "parentRowSpace": 10,
@@ -44,17 +37,17 @@
   "rightColumn": 64,
   "shouldScrollContents": true,
   "srcDoc": {
-    "css": "",
-    "html": "<img src=\"https://lifelinkapps.org/wp-content/uploads/2021/07/sosbutton.gif\" width = 410px>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
-    "js": ""
+    "css": ".modal {\n  display: none;\n  position: fixed;\n  z-index: 1;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  background-color: rgba(0, 0, 0, 0.4);\n  padding-top: 60px;\n}\n\n.modal-content {\n  background-color: #4caf50;\n  margin: 5% auto;\n  padding: 20px;\n  border: 1px solid #888;\n  width: 80%;\n  color: white;\n}\n\n.close {\n  color: #aaa;\n  float: right;\n  font-size: 28px;\n  font-weight: bold;\n}\n\n.close:hover,\n.close:focus {\n  color: black;\n  text-decoration: none;\n  cursor: pointer;\n}\n\nimg {\n  cursor: pointer;\n  outline: none;\n  border: none;\n  border-radius: 50%;\n}",
+    "html": "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-okaidia.min.css\"/>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js\"></script>\n<div id=\"root\"></div>",
+    "js": "import React from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm';\nimport ReactDOM from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm';\nfunction CustomWidget() {\n  const [isModalOpen, setIsModalOpen] = React.useState(false);\n  const handleImageClick = React.useCallback(() => {\n    setIsModalOpen(true);\n  }, []);\n  const handleCloseModal = React.useCallback(() => {\n    setIsModalOpen(false);\n  }, []);\n  return /*#__PURE__*/React.createElement(\"div\", null, /*#__PURE__*/React.createElement(\"img\", {\n    src: \"https://lifelinkapps.org/wp-content/uploads/2021/07/sosbutton.gif\",\n    width: \"410px\",\n    onClick: handleImageClick\n  }), isModalOpen && /*#__PURE__*/React.createElement(\"div\", {\n    className: \"modal\",\n    style: {\n      display: 'block'\n    },\n    onClick: handleCloseModal\n  }, /*#__PURE__*/React.createElement(\"div\", {\n    className: \"modal-content\",\n    onClick: e => e.stopPropagation()\n  }, /*#__PURE__*/React.createElement(\"span\", {\n    className: \"close\",\n    onClick: handleCloseModal\n  }, \"\\xD7\"), /*#__PURE__*/React.createElement(\"p\", null, \"Th\\xF4ng b\\xE1o: B\\u1EA1n \\u0111\\xE3 g\\u1EEDi t\\xEDn hi\\u1EC7u SOS th\\xE0nh c\\xF4ng!\"))));\n}\nappsmith.onReady(() => {\n  ReactDOM.render( /*#__PURE__*/React.createElement(CustomWidget, null), document.getElementById(\"root\"));\n});"
   },
   "theme": "{{appsmith.theme}}",
   "topRow": 6,
   "type": "CUSTOM_WIDGET",
   "uncompiledSrcDoc": {
-    "css": "",
-    "html": "<img src=\"https://lifelinkapps.org/wp-content/uploads/2021/07/sosbutton.gif\" width = 410px>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
-    "js": ""
+    "css": ".modal {\n  display: none;\n  position: fixed;\n  z-index: 1;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n  background-color: rgba(0,0,0,0.4);\n  padding-top: 60px;\n}\n\n.modal-content {\n  background-color: #4caf50;\n  margin: 5% auto;\n  padding: 20px;\n  border: 1px solid #888;\n  width: 80%;\n  color: white;\n}\n\n.close {\n  color: #aaa;\n  float: right;\n  font-size: 28px;\n  font-weight: bold;\n}\n\n.close:hover,\n.close:focus {\n  color: black;\n  text-decoration: none;\n  cursor: pointer;\n}\n\nimg {\n  cursor: pointer;\n  outline: none;\n  border: none;\n  border-radius: 50%;\n}",
+    "html": "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-okaidia.min.css\"/>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js\"></script>\n<div id=\"root\"></div>",
+    "js": "import React from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm';\nimport ReactDOM from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm';\n\nfunction CustomWidget() {\n\tconst [isModalOpen, setIsModalOpen] = React.useState(false);\n\n\tconst handleImageClick = React.useCallback(() => {\n\t\tsetIsModalOpen(true);\n\t}, []);\n\n\tconst handleCloseModal = React.useCallback(() => {\n\t\tsetIsModalOpen(false);\n\t}, []);\n\n\treturn (\n\t\t<div>\n\t\t<img src=\"https://lifelinkapps.org/wp-content/uploads/2021/07/sosbutton.gif\" width=\"410px\" onClick={handleImageClick} />\n{isModalOpen && (\n\t<div className=\"modal\" style={{display: 'block'}} onClick={handleCloseModal}>\n\t<div className=\"modal-content\" onClick={(e) => e.stopPropagation()}>\n\t\t<span className=\"close\" onClick={handleCloseModal}>&times;</span>\n<p>Thông báo: Bạn đã gửi tín hiệu SOS thành công!</p>\n</div>\n</div>\n)}\n\t</div>\n);\n}\n\nappsmith.onReady(() => {\n\tReactDOM.render(<CustomWidget />, document.getElementById(\"root\"));\n});"
   },
   "version": 1,
   "widgetId": "wrh5ig4zy9",
