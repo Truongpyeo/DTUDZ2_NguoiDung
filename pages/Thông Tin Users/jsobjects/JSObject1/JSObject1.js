@@ -9,7 +9,9 @@ export default {
 	load () {
 		const socket = new AppsmithSocket().connect()
 		socket.on("send_location_response", (data) => {
-			showAlert(data.data.message, "warning")
+			if(data.data.check_sos === appsmith.store.check_sos){
+				showAlert(data.data.message, "warning")
+			}
 		})
 	}, 
 }

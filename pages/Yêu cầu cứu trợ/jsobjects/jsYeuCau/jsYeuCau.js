@@ -2,7 +2,9 @@ export default {
 	load () {
 		const socket = new AppsmithSocket().connect()
 		socket.on("send_location_response", (data) => {
-			showAlert(data.data.message, "warning")
+			if(data.data.check_sos === appsmith.store.check_sos){
+				showAlert(data.data.message, "warning")
+			}
 		})
 	}, 
 	sendSOS  () {
@@ -26,6 +28,7 @@ export default {
 			showAlert("Yêu cầu của bạn đã đã gửi thành công và đang chờ xử lý!", "success");
 			this.sendSOS();
 			navigateTo("Trang Chủ");
+			storeValue("check_sos",uuid.hexNoDelim);
 		}
 		else{
 			showAlert("Vui lòng nhập đầy đủ thông tin!!", "error");
