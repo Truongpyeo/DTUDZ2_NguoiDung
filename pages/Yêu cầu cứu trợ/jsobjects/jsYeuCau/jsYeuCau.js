@@ -12,7 +12,6 @@ export default {
 			// await getNhanLucByNguonLuc.run();
 			showAlert("Yêu cầu của bạn đã đã gửi thành công và đang chờ xử lý!", "success");
 			navigateTo("Trang Chủ");
-
 		}
 		else{
 			showAlert("Vui lòng nhập đầy đủ thông tin!!", "error");
