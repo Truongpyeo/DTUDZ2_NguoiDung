@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 43,
+  "bottomRow": 45,
   "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
   "buttonColor": "#2b9c54",
   "buttonVariant": "PRIMARY",
@@ -46,7 +46,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 64,
   "text": "YÊU CẦU VIỆN TRỢ",
-  "topRow": 38,
+  "topRow": 40,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "jak7vcug8u",

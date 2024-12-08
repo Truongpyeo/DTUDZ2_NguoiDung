@@ -1,4 +1,17 @@
 export default {
+	load () {
+		const socket = new AppsmithSocket().connect()
+		socket.on("send_location_response", (data) => {
+			showAlert(data.data.message, "warning")
+		})
+	}, 
+	sendSOS  () {
+		const socket = new AppsmithSocket().connect();
+		var payload = {
+			message : "CÓ NGƯỜI VỪA YÊU CẦU TRỢ CẤP"
+		};
+		socket.emit("sos", payload);
+	},
 	createNhanCuuTro:async ()=>{
 		const location = this.getLocation();
 		const uuid = UUID.genV4();
@@ -11,6 +24,7 @@ export default {
 			});
 			// await getNhanLucByNguonLuc.run();
 			showAlert("Yêu cầu của bạn đã đã gửi thành công và đang chờ xử lý!", "success");
+			this.sendSOS();
 			navigateTo("Trang Chủ");
 		}
 		else{

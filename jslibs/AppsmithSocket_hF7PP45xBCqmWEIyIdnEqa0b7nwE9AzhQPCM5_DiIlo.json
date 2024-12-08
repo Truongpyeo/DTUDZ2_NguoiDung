@@ -1,0 +1,10 @@
+{
+  "accessor": [
+    "AppsmithSocket"
+  ],
+  "defs": "{\"!name\":\"LIB/AppsmithSocket\",\"AppsmithSocket\":{\"!type\":\"fn()\",\"prototype\":{\"connect\":{\"!type\":\"fn()\"},\"emit\":{\"!type\":\"fn()\"},\"on\":{\"!type\":\"fn()\"},\"off\":{\"!type\":\"fn()\"},\"disconnect\":{\"!type\":\"fn()\"}}}}",
+  "name": "AppsmithSocket",
+  "uidString": "AppsmithSocket_https://cdn.jsdelivr.net/npm/appsmith-socketio@3.0.0/dist/appsmith-socketio.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/appsmith-socketio@3.0.0/dist/appsmith-socketio.min.js",
+  "version": "3.0.0"
+}

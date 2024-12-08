@@ -1,6 +1,6 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#2b9c54",
+  "backgroundColor": "#b33d0a",
   "borderColor": "#2b9c54",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
@@ -14,6 +14,7 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [],
   "dynamicTriggerPathList": [],
   "fontFamily": "Inter",
   "fontSize": "1.25rem",
