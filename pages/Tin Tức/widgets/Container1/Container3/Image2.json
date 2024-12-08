@@ -1,14 +1,15 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 17,
+  "bottomRow": 26,
   "boxShadow": "none",
-  "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+  "defaultImage": "https://i.ytimg.com/vi/TU5TEWLgsOA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLADfUuomM7n-6vr6WEUjo7jSznFhw",
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
     }
   ],
+  "dynamicTriggerPathList": [],
   "enableDownload": false,
   "enableRotation": false,
   "flexVerticalAlignment": "start",

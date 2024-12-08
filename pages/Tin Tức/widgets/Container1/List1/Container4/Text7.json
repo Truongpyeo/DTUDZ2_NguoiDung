@@ -5,9 +5,6 @@
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
-      "key": "text"
-    },
-    {
       "key": "truncateButtonColor"
     },
     {
@@ -23,7 +20,7 @@
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1rem",
+  "fontSize": "1.25rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
@@ -41,11 +38,11 @@
   "parentId": "vmhvlbr6dh",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 28,
+  "rightColumn": 34,
   "shouldTruncate": false,
-  "text": "{{currentItem.name}}",
+  "text": "Bão số {{currentIndex+1}}",
   "textAlign": "LEFT",
-  "textColor": "#231F20",
+  "textColor": "#cf4d10",
   "textStyle": "HEADING",
   "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",

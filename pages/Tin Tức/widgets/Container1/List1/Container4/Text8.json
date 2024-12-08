@@ -11,9 +11,6 @@
       "key": "truncateButtonColor"
     },
     {
-      "key": "fontFamily"
-    },
-    {
       "key": "borderRadius"
     },
     {
@@ -21,9 +18,14 @@
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
   "dynamicTriggerPathList": [],
-  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1rem",
+  "fontFamily": "Nunito Sans",
+  "fontSize": "0.775rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
@@ -41,9 +43,9 @@
   "parentId": "vmhvlbr6dh",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 24,
+  "rightColumn": 40,
   "shouldTruncate": false,
-  "text": "{{currentItem.id}}",
+  "text": "Nội dung {{currentIndex+1}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "textStyle": "BODY",

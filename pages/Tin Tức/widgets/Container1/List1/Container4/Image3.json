@@ -3,11 +3,8 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 8,
   "boxShadow": "none",
-  "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+  "defaultImage": "",
   "dynamicBindingPathList": [
-    {
-      "key": "image"
-    },
     {
       "key": "borderRadius"
     }
@@ -16,7 +13,7 @@
   "enableDownload": false,
   "enableRotation": false,
   "flexVerticalAlignment": "start",
-  "image": "{{currentItem.img}}",
+  "image": "https://ktmt.vnmediacdn.com/thumb_x400x/images/2023/10/22/84-1697990565-bao-california.jpg",
   "imageShape": "RECTANGLE",
   "isLoading": false,
   "isVisible": true,
