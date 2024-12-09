@@ -162,7 +162,7 @@ Sau khi các container đã được khởi động, bạn có thể truy cập 
 
 - Mở trình duyệt và vào địa chỉ:
 
-    - Truy cập Appsmith trên cổng http://localhost:5555 (HTTP) và http://localhost:444 (HTTPS).
+    - Truy cập Appsmith trên cổng http://localhost:5555 (HTTP).
 
     - Truy cập MySQL trên cổng http://localhost:33088.
 
