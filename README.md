@@ -66,19 +66,114 @@ DTUDZ2 NHÂN LỰC là một ứng dụng quản trị được xây dựng bằ
 Chi tiết dự án xem tại [DTURelifeLink/setup](https://github.com/Truongpyeo/DTURelifeLink/blob/master/docs/setup.md)
 
 ## 🧩 Plugins
-- [DTUAppSmithMap](https://www.npmjs.com/package/dtuappsmithmap)
-- [DTUAppSmithRealTime]()
+### DTU AppSmith Map
+ -  NPM 
+```
+  npm install dtuappsmithmap
+```
+ -  CDN
+```
+  <script src="https://cdn.jsdelivr.net/npm/dtuappsmithmap@2.2.20/dist/index.umd.js"></script>
+```
+  - AppSmith
+    - Thêm URL sau vào Resource của Appsmith:
+```
+  https://cdn.jsdelivr.net/npm/dtuappsmithmap@2.2.20/dist/index.umd.js
+```
+Chi tiết hướng dẫn tại [DTUAppSmithMap](https://www.npmjs.com/package/dtuappsmithmap)
+
+### DTU AppSmith RealTime
+- NPM 
+```
+  npm install dtuappsmithrealtime
+```
+- CDN
+```
+  <script src="https://cdn.jsdelivr.net/npm/dtuappsmithrealtime@1.1.5/dist/index.umd.js"></script>
+```
+  
+- AppSmith
+  - Thêm URL sau vào Resource của Appsmith:
+```
+  https://cdn.jsdelivr.net/npm/dtuappsmithrealtime@1.1.5/dist/index.umd.js
+```
+Chi tiết hướng dẫn tại [DTUAppSmithRealTime](https://www.npmjs.com/package/dtuappsmithrealtime/v/1.1.5)
+
+Chi tiết cách cài đặt của AppSmith tại [AppSmith](https://docs.appsmith.com/core-concepts/writing-code/ext-libraries#prerequisites)
 
 ## ⚙️ Services
-- [DTUServerSocket](https://github.com/Truongpyeo/DTUServerSocket)
+### DTU ServerSocket
+
+- Xem chi tiết tại [DTUServerSocket](https://github.com/Truongpyeo/DTUServerSocket)
+
+- Server Demo: [ServerDemo](https://socket.thanhtruongit.io.vn/login.html)
+
+## 🐳 Docker Appsmith
+### Yêu cầu tiên quyết
+ - Docker (phiên bản 20.10.7 trở lên)  [Docker]( https://docs.docker.com/get-docker/)
+ - Docker-Compose (phiên bản 1.29.2 trở lên) [Docker-Compose](https://docs.docker.com/compose/install/)
+
+Bạn sẽ cần phải khởi động lại máy tính sau khi hoàn tất quá trình cài đặt.
+
+- Clone repo của Appsmith từ GitHub về máy tính: 
+``` 
+    git clone https://github.com/appsmithorg/appsmith.git
+
+```
+
+- Nếu git clone về không có docker-compose.yml thì bạn cần tạo 1 file docker-compose.yml và cấu hình sau: 
+	version: "3"
+
+  ```
+  services:
+    appsmith:
+        image: index.docker.io/appsmith/appsmith-ee
+        container_name: appsmith
+        ports:
+            - "5555:80"
+            - "444:443"
+        volumes:
+            - ./stacks:/appsmith-stacks
+        restart: unless-stopped
+    mysql:
+        image: mysql:latest
+        ports:
+            - "33088:3306" 
+        container_name: mysql
+        environment:
+            - MYSQL_ROOT_PASSWORD=admin
+            - MYSQL_DATABASE=appsmith
+        volumes:
+            - mysql-data:/var/lib/mysql
+        restart: unless-stopped
+        volumes:
+        mysql-data:
+  ```
+
+
+
+- Trong thư mục appsmith, chạy lệnh sau để khởi động Appsmith trong Docker:
+
+``` 
+  cd appsmith
+  docker-compose up
+```
+Sau khi các container đã được khởi động, bạn có thể truy cập Appsmith qua trình duyệt.
+
+- Mở trình duyệt và vào địa chỉ:
+
+    - Truy cập Appsmith trên cổng http://localhost:5555 (HTTP) và http://localhost:444 (HTTPS).
+
+    - Truy cập MySQL trên cổng http://localhost:33088.
+
+Xem chi tiết tại [Docker Appsmith](https://docs.appsmith.com/getting-started/setup/installation-guides/docker)
 
 
 ## 📚 Tài liệu
 - [Hướng dẫn cài đặt](https://github.com/Truongpyeo/DTURelifeLink/blob/master/docs/setup.md)
-- [Hướng dẫn đóng góp](https://github.com/Truongpyeo/DTURelifeLink/blob/master/CONTRIBUTING.md)
 
 ## 🤝 Đóng góp
-Chúng tôi rất hoan nghênh mọi đóng góp! Xem [CONTRIBUTING](https://github.com/Truongpyeo/DTURelifeLink/blob/master/CONTRIBUTING.md) để biết thêm chi tiết.
+Chúng tôi rất hoan nghênh mọi đóng góp! Xem [CONTRIBUTING](https://github.com/Truongpyeo/DTUDZ2_NguoiDung/blob/master/CONTRIBUTING.md) để biết thêm chi tiết.
 
 ## 🔄 Quy trình phát triển
 1. Fork repo này
@@ -108,24 +203,19 @@ Nếu bạn phát hiện lỗi, vui lòng tạo issue mới với:
 *" 🏫 DTU_DZ - DUY TAN UNIVERSITY - SCS ✨"*
 
 ## 📜 Changelog
-Xem [CHANGELOG](https://github.com/Truongpyeo/DTURelifeLink/blob/master/CHANGELOG.md) để biết lịch sử thay đổi.
+Xem [CHANGELOG](https://github.com/Truongpyeo/DTUDZ2_NguoiDung/blob/master/CHANGELOG.md) để biết lịch sử thay đổi.
 
 ## ⚖️ Code of Conduct
-Xem [CODE_OF_CONDUCT](https://github.com/Truongpyeo/DTURelifeLink/blob/master/CODE_OF_CONDUCT.md) để biết các quy tắc và hành vi được chấp nhận.
+Xem [CODE_OF_CONDUCT](https://github.com/Truongpyeo/DTUDZ2_NguoiDung/blob/master/CODE_OF_CONDUCT.md) để biết các quy tắc và hành vi được chấp nhận.
 
 ## Báo cáo lỗi & Góp ý
 - Issues: [GitHub Issues](https://github.com/Truongpyeo/DTURelifeLink/issues)
 - Security: Đối với các vấn đề bảo mật nhạy cảm, vui lòng liên hệ trực tiếp qua email: <u>thanhtruong23111999@gmail.com</u>
 
-## Liên hệ & Hỗ trợ
-
 ### Bug Reports & Feature Requests
 - Sử dụng [GitHub Issues](https://github.com/Truongpyeo/DTUDZ2_NguoiDung/issues) để báo cáo lỗi hoặc đề xuất tính năng mới
-- Xem [hướng dẫn đóng góp](CONTRIBUTING.md) để biết thêm chi tiết
-
-### Thảo luận & Hỗ trợ
-- Email hỗ trợ: thanhtruong23111999@gmail.com
+- Xem [hướng dẫn đóng góp](https://github.com/Truongpyeo/DTUDZ2_NguoiDung/blob/master/CONTRIBUTING.md) để biết thêm chi tiết
 
 ## 📄 License
 
-Dự án này được phân phối dưới giấy phép MIT. Xem file [LICENSE](LICENSE) để biết thêm chi tiết.
+Dự án này được phân phối dưới giấy phép MIT. Xem file [LICENSE](https://github.com/Truongpyeo/DTUDZ2_NguoiDung/blob/master/LICENSE) để biết thêm chi tiết.
