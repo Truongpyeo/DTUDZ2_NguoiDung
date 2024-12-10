@@ -61,12 +61,12 @@
         },
         "insert": {
           "documents": {
-            "data": "{\n\t\"id\":\"{{this.params.id}}\",\n\t\"noi_dung\": null,\n\t\"toa_do_x\": \"{{this.params.location.lat}}\",\n\t\"toa_do_y\": \"{{this.params.location.lng}}\",\n\t\"dia_chi_sos\": \"{{txt_diaChi.text}}\",\n\t\"ten_sos\": null,\n\t\"sdt_sos\": null,\n\t\"is_sos\": true,\n\t\"is_tro_cap\": false,\n\t\"id_nguoi_dung\":null,\n\t\"tinh_trang\": false,\n\t\"created_at\": \"{{this.params.created_at}}\"\n}"
+            "data": "{\n\t\"id\":\"{{this.params.id}}\",\n\t\"noi_dung\": \"Cứu trợ khẩn cấp\",\n\t\"toa_do_x\": \"{{this.params.location.lat}}\",\n\t\"toa_do_y\": \"{{this.params.location.lng}}\",\n\t\"dia_chi_sos\": \"{{txt_diaChi.text}}\",\n\t\"ten_sos\": \"Cứu trợ khẩn cấp\",\n\t\"sdt_sos\": \"Cứu trợ khẩn cấp\",\n\t\"is_sos\": true,\n\t\"is_tro_cap\": false,\n\t\"id_nguoi_dung\":null,\n\t\"tinh_trang\": false,\n\t\"created_at\": \"{{this.params.created_at}}\"\n}"
           }
         },
         "misc": {
           "formToNativeQuery": {
-            "data": "{\n  \"insert\": \"thong_tin_cuu_nans\",\n  \"documents\": {\n\t\"id\":\"{{this.params.id}}\",\n\t\"noi_dung\": null,\n\t\"toa_do_x\": \"{{this.params.location.lat}}\",\n\t\"toa_do_y\": \"{{this.params.location.lng}}\",\n\t\"dia_chi_sos\": \"{{txt_diaChi.text}}\",\n\t\"ten_sos\": null,\n\t\"sdt_sos\": null,\n\t\"is_sos\": true,\n\t\"is_tro_cap\": false,\n\t\"id_nguoi_dung\":null,\n\t\"tinh_trang\": false,\n\t\"created_at\": \"{{this.params.created_at}}\"\n}\n}\n",
+            "data": "{\n  \"insert\": \"thong_tin_cuu_nans\",\n  \"documents\": {\n\t\"id\":\"{{this.params.id}}\",\n\t\"noi_dung\": \"Cứu trợ khẩn cấp\",\n\t\"toa_do_x\": \"{{this.params.location.lat}}\",\n\t\"toa_do_y\": \"{{this.params.location.lng}}\",\n\t\"dia_chi_sos\": \"{{txt_diaChi.text}}\",\n\t\"ten_sos\": \"Cứu trợ khẩn cấp\",\n\t\"sdt_sos\": \"Cứu trợ khẩn cấp\",\n\t\"is_sos\": true,\n\t\"is_tro_cap\": false,\n\t\"id_nguoi_dung\":null,\n\t\"tinh_trang\": false,\n\t\"created_at\": \"{{this.params.created_at}}\"\n}\n}\n",
             "status": "SUCCESS"
           }
         },
